@@ -93,6 +93,9 @@
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#F2CE5D)); */
 }
 /*   end third section */
+
+
+/*   footer section */
 footer{
     background-color: black;
     color: white;
@@ -115,11 +118,14 @@ footer a:hover{
 #copyRight{
     font-size: 12px;
 }
-
-/*   footer section */
-
 /*   end footer section */
 
+/*  Extra extra small devices (portrait phones, less than 425px) this is a fix for icons-2.png for small screens */
+@media (max-width: 425px) { 
+    #icons-2 {
+    width: 100%;
+    height: 90%;
+} 
 
 /*   responsive styles */
 /*  Extra small devices (portrait phones, less than 576px) */
@@ -155,7 +161,6 @@ No media query since the extra-large breakpoint has no upper bound on its width 
   .view {
     height: 100%;
   }
-
   @media (max-width: 740px) {
     html,
     body,
@@ -172,6 +177,15 @@ No media query since the extra-large breakpoint has no upper bound on its width 
       height: 650px;
     }
   }
+  .card {
+    background-color: rgba(126, 123, 215, 0.2);
+  }
+  .md-form label {
+    color: #ffffff;
+  }
+  h6 {
+    line-height: 1.7;
+  } */
 
   .card {
     background-color: rgba(126, 123, 215, 0.2);
