@@ -123,9 +123,10 @@ footer a:hover{
 /*  Extra extra small devices (portrait phones, less than 425px) this is a fix for icons-2.png for small screens */
 @media (max-width: 425px) { 
     #icons-2 {
-    width: 100%;
-    height: 90%;
-} 
+        width: 100%;
+        height: 90%;
+    }
+}  
 
 /*   responsive styles */
 /*  Extra small devices (portrait phones, less than 576px) */
