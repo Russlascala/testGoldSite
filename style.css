@@ -1,0 +1,186 @@
+/* top section */
+#sloganOne{
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
+#sloganTwo {
+    color:#F2CE5D;
+    text-shadow: 1px 1px black;
+}
+
+.card {
+    background: #d3d3d3;
+}
+
+.md-form, input {
+    padding-bottom:6px;
+}
+
+.btn {
+    background-color:#F2CE5D;
+    font-weight: bold;
+}
+
+.btn:hover {
+  transition : 0.3s;
+  box-shadow : 0px 0px 1px 6px #A38B45;
+ 
+  cursor : pointer;
+}
+#callBtn, span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sloganChecks {
+    padding:10px 5px 5px 10px;
+    background-color: rgba(215, 201, 123, 0.2);
+    border-radius: 10px;
+    border: solid 2px whitesmoke;
+    color: whitesmoke;
+    letter-spacing: .1px;
+    text-shadow: 1px 1px black;
+  }
+/*   end top section */
+
+/*   second section */
+#sectionTwo{
+    background: black;
+}
+#sectionTwo, .row.py-5{
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}
+#bigText{
+   font-size: 38px; 
+   padding: 5px;
+   color: whitesmoke;
+}
+
+.sloganInfo {
+    margin-bottom:45px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.445);
+    text-shadow: 1px 1px black;
+    border-radius: 12px;
+    
+}
+.sloganInfo, h6{
+    font-size: 16pt;
+    text-indent: -.1em;
+}
+/*   end second section */
+
+#sectionThree{
+    background-color: black;
+    margin-top:-25px;
+}
+
+/*   third section */
+#brands{
+    width:100%;
+}
+
+.lineFade{ 
+    height:1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(black), color-stop(50%, #F2CE5D));
+    /* display:block;
+    border:none;
+    height:26px;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#F2CE5D)); */
+}
+/*   end third section */
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer, a{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #ffdf00;
+}
+footer a:hover{
+    color: #fff199;
+}
+
+#altLinks{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#copyRight{
+    font-size: 12px;
+}
+
+/*   footer section */
+
+/*   end footer section */
+
+
+/*   responsive styles */
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .mt-5, .my-5 {
+        margin-top: 1.5rem!important;
+    }
+ }
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+ }
+
+/*  Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+ }
+
+/* Extra large devices (large desktops)
+No media query since the extra-large breakpoint has no upper bound on its width */
+
+ /* Required for full background image */
+
+ /*  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+
+  @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 1000px;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 650px;
+    }
+  }
+
+  .card {
+    background-color: rgba(126, 123, 215, 0.2);
+  }
+
+  .md-form label {
+    color: #ffffff;
+  }
+
+  h6 {
+    line-height: 1.7;
+  } */
